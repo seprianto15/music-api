@@ -34,12 +34,12 @@ exports.up = (pgm) => {
       notNull: true,
     },
 
-    insertedAt: {
+    inserted_at: {
       type: 'TEXT',
       notNull: true,
     },
 
-    updatedAt: {
+    updated_at: {
       type: 'TEXT',
       notNull: true,
     },
